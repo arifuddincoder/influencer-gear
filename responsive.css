@@ -1,0 +1,235 @@
+@media screen and (max-width:576px) {
+
+    /** common css **/
+    .d-flex {
+        flex-direction: column;
+    }
+
+    /** common css **/
+    /** start header navigation css **/
+    .header-nav {
+        padding: 35px 16px;
+    }
+
+    .header-navigation {
+        display: none;
+    }
+
+    .md-navigation-bar {
+        display: block;
+        font-size: 25px;
+        border: 0;
+        background-color: transparent;
+    }
+
+    .nav-shopping-cart {
+        display: block;
+        font-size: 25px;
+        color: var(--c0A0826);
+    }
+
+    .header-logo {
+        font-size: 1rem;
+    }
+
+    /** end header navigation css **/
+
+    /** start banner css **/
+    .banner {
+        flex-direction: column-reverse;
+        padding: 0 10px 50px;
+        gap: 14px;
+    }
+
+    .banner-img {
+        animation: none;
+        padding: 30px 50px;
+        background-position: center;
+    }
+
+    .banner-content {
+        text-align: center;
+    }
+
+    .banner-content h1 {
+        font-size: 1.75rem;
+    }
+
+    .banner-content p {
+        font-size: 0.875rem;
+    }
+
+    .banner-content button {
+        margin: 0 auto;
+    }
+
+    /** end banner css **/
+    /** start featured logo css **/
+    .featured-logo {
+        justify-content: center;
+        gap: 20px;
+        margin-bottom: 0;
+    }
+
+    .featured-logo::before {
+        height: 0;
+    }
+
+    .featured-logo::after {
+        height: 0;
+    }
+
+    /** end featured logo css **/
+}
+
+@media screen and (min-width:577px) and (max-width:768px) {
+
+    /** start header navigation css **/
+    .header-nav {
+        padding: 35px 16px;
+    }
+
+    .header-navigation {
+        display: none;
+    }
+
+    .md-navigation-bar {
+        display: block;
+        font-size: 25px;
+        border: 0;
+        background-color: transparent;
+    }
+
+    .nav-shopping-cart {
+        display: block;
+        font-size: 25px;
+        color: var(--c0A0826);
+    }
+
+    /** end header navigation css **/
+
+    /** start banner css **/
+    .banner {
+        flex-direction: column-reverse;
+        padding: 0 10px 50px;
+        gap: 20px;
+    }
+
+    .banner-img {
+        animation: none;
+        padding: 30px 50px;
+        background-position: center;
+    }
+
+    .banner-content {
+        text-align: center;
+    }
+
+    .banner-content button {
+        margin: 0 auto;
+    }
+
+    /** end banner css **/
+
+    /** start featured logo css **/
+    .featured-logo {
+        justify-content: center;
+        gap: 25px;
+        margin-bottom: 0;
+    }
+
+    .featured-logo::before {
+        height: 0;
+    }
+
+    .featured-logo::after {
+        height: 0;
+    }
+
+    /** end featured logo css **/
+}
+
+@media screen and (min-width:769px) and (max-width:992px) {
+
+    /** start header navigation css **/
+    .header-nav {
+        padding: 25px 16px;
+    }
+
+    /** end header navigation css **/
+    /** start banner css **/
+    .banner {
+        padding: 10px 50px;
+        gap: 14px;
+    }
+
+    .banner-img {
+        padding: 30px 50px;
+        background-position: center;
+    }
+
+    .banner-content h1 {
+        font-size: 1.75rem;
+        line-height: 1.3;
+    }
+
+    /** end banner css **/
+    /** start featured logo css **/
+    .featured-logo {
+        justify-content: center;
+        margin-bottom: 0;
+        gap: 35px;
+    }
+
+    .featured-logo::before {
+        height: 0;
+    }
+
+    .featured-logo::after {
+        height: 0;
+    }
+
+    /** end featured logo css **/
+}
+
+@media screen and (min-width:993px) and (max-width:1200px) {
+
+    /** start header navigation css **/
+    .header-nav {
+        padding: 35px;
+    }
+
+    /** end header navigation css **/
+    /** start banner css **/
+    .banner {
+        padding: 10px 50px;
+        gap: 14px;
+    }
+
+    .banner-content h1 {
+        font-size: 2.1rem;
+        line-height: 1.3;
+    }
+
+    .banner-content {
+        flex: 0.65;
+    }
+
+    .banner-img {
+        flex: 0.45;
+    }
+
+    /** end banner css **/
+
+    /** start featured logo css **/
+    .featured-logo {
+        justify-content: center;
+        margin-bottom: 0;
+        gap: 35px;
+    }
+
+    /** end featured logo css **/
+
+}
+
+@media screen and (min-width:1201px) {}

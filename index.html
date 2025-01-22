@@ -9,14 +9,18 @@
         <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,700&family=Manrope:wght@700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="responsive.css">
+        <script src="https://kit.fontawesome.com/88ac32cb69.js" crossorigin="anonymous"></script>
     </head>
-    <body>
-        <header>
-            <nav>
+    <body class="poppins-font">
+        <header class="header-container">
+            <nav class="header-nav">
+                <button class="md-navigation-bar">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
                 <a href="#" class="header-logo">
                     <h3>Influencer products</h3>
                 </a>
-                <ul>
+                <ul class="header-navigation">
                     <li>
                         <a href="">Home</a>
                     </li>
@@ -30,13 +34,48 @@
                         <a href="">Log In</a>
                     </li>
                     <li>
-                        <a href=""></a>
+                        <a href="">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </a>
                     </li>
                     <li>
-                        <a href=""></a>
+                        <a href="">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
                     </li>
                 </ul>
+                <a href="" class="nav-shopping-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
             </nav>
+            <div class="banner">
+                <div class="banner-content">
+                    <h1>
+                        Start your Journey as
+                        <br>
+                        Influencer
+                    </h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem vestibulum sed scelerisque eros. Lectus faucibus.</p>
+                    <button class="btn-primary">
+                        Preebook now
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+                <div class="banner-img">
+                    <img src="assets/images/main-camera.png" alt="">
+                </div>
+            </div>
         </header>
+        <main>
+            <div class="featured-logo">
+                <img src="assets/logos/alibaba.svg" alt="">
+                <img src="assets/logos/amazon.svg" alt="">
+                <img src="assets/logos/daraz-pk-logo.svg" alt="">
+                <img src="assets/logos/ebay.svg" alt="">
+                <img src="assets/logos/rakuten.svg" alt="">
+                <img src="assets/logos/walmart.svg" alt="">
+                <img src="assets/logos/target.svg" alt="">
+            </div>
+        </main>
     </body>
 </html>
