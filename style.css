@@ -150,7 +150,7 @@ button {
     background-position: right center;
     background-size: contain;
     padding: 50px;
-    /* animation: banner-image-bg 3s ease-in-out 0s infinite alternate; */
+    animation: banner-image-bg 3s ease-in-out 0s infinite alternate;
 }
 
 @keyframes banner-image-bg {
@@ -159,7 +159,7 @@ button {
     }
 
     100% {
-        transform: scale(1.1);
+        transform: scale(1.08);
     }
 }
 
