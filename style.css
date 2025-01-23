@@ -315,3 +315,44 @@ button {
 }
 
 /** end newsletter section css **/
+
+/** start footer css **/
+.footer {
+    background-color: var(--c0A0826);
+    color: var(--white);
+    padding: 50px 0;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 262px;
+    margin: 0 auto;
+}
+
+.footer-container h2 {
+    font-size: 1.5rem;
+}
+
+.footer-container p {
+    font-size: .875rem;
+    line-height: 1.7;
+    color: #D9DBE1;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 17px;
+}
+
+.social-media a {
+    color: var(--white);
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 5px;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+
+/** end footer css **/
