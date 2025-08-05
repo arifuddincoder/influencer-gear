@@ -20,8 +20,7 @@ A stylish and responsive landing page designed to showcase gadgets and gear for 
 ## ⚙️ Technologies Used
 
 - HTML5  
-- CSS3  
-- Vanilla JavaScript  
+- CSS3   
 
 ---
 
