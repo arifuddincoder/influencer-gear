@@ -11,7 +11,7 @@ A stylish and responsive landing page designed to showcase gadgets and gear for 
 
 - 🎧 Product card grid with clean design  
 - 📱 Responsive layout for all screen sizes  
-- 🧩 Built with HTML, CSS, and JS — no frameworks  
+- 🧩 Built with HTML, CSS — no frameworks  
 - 📦 Includes sections like Hero, Product List, and Footer  
 - ⚡ Fast load, minimal dependencies  
 
